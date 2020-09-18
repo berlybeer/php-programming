@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Font related properties</title>
+	</head>
+	<style>
+		body {
+			font-size: 52px;
+		}
+		.example {
+			font-size: 33px;
+		}
+		.a {
+			font-family: sans-serif;
+			font-size: 80%;
+			color: red;
+		}
+		.b {
+			font-family: Helvetica;
+			color: orange;
+		}
+		.c {
+			font-family: Verdana;
+			color: yellow;
+			background-color: black;
+		}
+		.d {
+			font-family: sans-serif;
+			color: green;
+		}
+		.e {
+			font-variant: normal;
+			color: blue;
+		}
+
+		.f {
+			font-variant: small-caps;
+
+			color: indigo;
+		}
+		.g {
+			font-variant: inherit;
+			color: violet;
+		}
+		.h {
+			font-style: normal;
+			color: red;
+		}
+
+		.i {
+			font-style: italic;
+			color: orange;
+		}
+
+		.j {
+			font-style: oblique;
+			color: yellow;
+			background: black;
+		}
+
+		.k {
+			font-size: 22px;
+			color: green;
+		}
+
+		.l {
+			font-weight: normal;
+		}
+
+		.m {
+			font-weight: bold;
+		}
+
+		.n {
+			font-weight: bolder;
+		}
+
+		.ñ {
+			font-weight: lighter;
+		}
+
+		.o {
+			font-weight: 100;
+		}
+		.p {
+			font-weight: 200;
+		}
+
+		.q {
+			font-weight: 300;
+		}
+
+		.r {
+			font-weight: 400;
+		}
+
+		.s {
+			font-weight: 500;
+		}
+
+		.t {
+			font-weight: 600;
+		}
+
+		.u {
+			font-weight: 700;
+		}
+	</style>
+	<body>
+		<h2>Font related properties in CSS3</h2>
+		<ul>
+			<li class="a">
+				font: 80% sans-serif;
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+					sed provident eaque, facere ad cupiditate recusandae architecto
+					consequuntur non quidem modi delectus doloremque eos obcaecati eveniet
+					tempore nam molestias assumenda!
+				</p>
+			</li>
+			<li class="b">
+				font-family: Helvetica;
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="c">
+				font-family: Verdana;
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="d">
+				font-family: sans-serif;
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="e">
+				font-variant: normal
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="f">
+				font-variant: small-caps
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="g">
+				font-variant: inherit
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="h">
+				font-style: normal
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="i">
+				font-style: italic
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="j">
+				font-style: oblique
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="k">
+				font-size: 22px
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="l">
+				font-weight: normal
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="m">
+				font-weight: bold
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="n">
+				font-weight:
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="ñ">
+				font-weight: lighter
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="o">
+				font-weight: 100
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="p">
+				font-weight: 200
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="q">
+				font-weight: 300
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="r">
+				font-weight: 400
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="s">
+				font-weight: 500
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="t">
+				font-weight: 600
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+			<li class="u">
+				font-weight: 700
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+					doloremque praesentium sed voluptatibus officiis magnam ipsa voluptate
+					maiores, voluptatum cum quisquam sequi! Voluptates reiciendis nobis
+					iusto consequatur quo. Deleniti, dignissimos?
+				</p>
+			</li>
+		</ul>
+		<p class="example">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ullam
+			dolorum excepturi molestiae, repellendus quia nam in nisi aliquam
+			doloribus quo sit, ipsam culpa earum rem eveniet quos repellat
+			repudiandae.
+		</p>
+	</body>
+</html>
