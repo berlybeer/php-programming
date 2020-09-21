@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a href="">Rock</a>
+				</li>
+				<li>
+					<a href="" class="router-link-active">Megarock</a>
+				</li>
+				<li>
+					<a href="" class="router-link-active">Megarock</a>
+				</li>
+				<li>
+					<a href="">Rock</a>
+				</li>
+				<li>
+					<a href="" class="router-link-active">Megarock</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="add-blog">
+			<h2>Add a New Blog Post</h2>
+			<form>
+				<label>Blog Title:</label>
+				<input type="text" />
+				<label>Blog Content:</label>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<div id="checkboxes">
+					<input type="checkbox" />
+					<label for="">Ninjas</label>
+					<input type="checkbox" />
+					<label for="">Wizards</label>
+					<input type="checkbox" />
+					<label for="">Mario</label>
+					<input type="checkbox" />
+					<label for="">Cheese</label>
+				</div>
+				<label>Author:</label>
+				<select>
+					<option value="">The Net Ninja</option>
+					<option value="">The Angular avenger</option>
+					<option value="">The Vue Vindicator</option>
+				</select>
+				<button>Add Blog</button>
+			</form>
+			<div id="preview">
+				<h3>Preview Blog</h3>
+				<p>Blog title: The titl</p>
+				<p>
+					Blog Content Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					Sit ipsa reprehenderit eius quibusdam ratione excepturi beatae atque
+					commodi sequi libero. Mollitia veritatis a distinctio sequi recusandae
+					rerum omnis consequuntur dignissimos?
+				</p>
+				<p>Blog categories:</p>
+				<ul>
+					<li>Wizards</li>
+				</ul>
+				<p>Author: The net ninja</p>
+			</div>
+		</div>
+		<aside>
+			<h2>Related</h2>
+
+			<ul>
+				<li><a href="#">Oh I do like to be beside the seaside</a></li>
+				<li><a href="#">Oh I do like to be beside the sea</a></li>
+				<li><a href="#">Although in the North of England</a></li>
+				<li><a href="#">It never stops raining</a></li>
+				<li><a href="#">Oh well...</a></li>
+			</ul>
+		</aside>
+	</body>
+
+	<style>
+		/* nav {
+			padding: 30px 0px;
+			background-color: #444;
+		} */
+
+		ul {
+			list-style-type: none;
+			text-align: center;
+			margin: 0px;
+		}
+
+		li {
+			display: inline;
+			margin: 0 10px;
+		}
+
+		a {
+			color: #fff;
+			font-size: 35px;
+			text-decoration: none;
+			padding: 6px 8px;
+			border-radius: 10px;
+		}
+
+		nav {
+			background-color: #444;
+			padding: 14px 0;
+		}
+
+		.router-link-active {
+			background: #eee;
+			color: #444;
+		}
+
+		#add-blog * {
+			box-sizing: border-box;
+		}
+		#add-blog {
+			margin: 20px auto;
+			max-width: 500px;
+			border-style: solid;
+			border-color: coral;
+		}
+		label {
+			display: block;
+			margin: 20px 0 10px;
+		}
+		input[type='text'],
+		textarea {
+			display: block;
+			width: 100%;
+			padding: 8px;
+		}
+
+		#preview {
+			padding: 10px 20px;
+			border: 1px dotted #ccc;
+		}
+
+		h3 {
+			margin-top: 10px;
+		}
+
+		#checkboxes input {
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		#checkboxes label {
+			display: inline-block;
+		}
+
+		hr {
+			display: none;
+		}
+
+		button {
+			display: block;
+			margin: 20px 0;
+			background: crimson;
+			color: #fff;
+			border: 0;
+			padding: 14px;
+			border-radius: 4px;
+			font-size: 18px;
+			cursor: pointer;
+		}
+
+		body {
+			background: #eee;
+		}
+	</style>
+</html>
