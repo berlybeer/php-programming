@@ -7,17 +7,20 @@ class MyPDF extends FPDF
 {
 	function header()
 	{
-		global $title;
+	 global $title;
 
-		$this->setFont("Times", '', 12);
-		$this->setDrawColor(0,0,180);
-		$this->setFillColor(230,0,230);
-		$this->setTextColor(0,0,255);
-		$this->setLineWidth(1);
+	 $this->setFont("Times", '', 12);
+	 $this->setDrawColor(0, 0, 180);
+	 $this->setFillColor(230, 0, 230);
+	 $this->setTextColor(0, 0, 255);
+	 $this->setLineWidth(0.5);
 
-		$width = $this->getStringWidth($title) + 150;
-		$this->cell($width,9,$title,1,1,'C',1);
-		$this->ln(10);
+	 $width = $this->getStringWidth($title) + 150;
+
+
+	 $this->image("logo.jpg", 10, 10.5, 15, 8.5);
+	 $this->cell($width, 9, $title, 1, 1, 'C');
+	 $this->ln(10);
 	}
 
 	function footer()
