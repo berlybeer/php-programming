@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <library>
- <book>
+ <book id="1">
  <title>Programming PHP</title>
  <authors>
  <author>Rasmus Lerdorf</author>
@@ -10,7 +10,7 @@
  <isbn>1-56592-610-2</isbn>
  <comment>A great book!</comment>
  </book>
- <book>
+ <book id="2">
  <title>PHP Pocket Reference</title>
  <authors>
  <author>Rasmus Lerdorf</author>
@@ -18,7 +18,7 @@
  <isbn>1-56592-769-9</isbn>
  <comment>It really does fit in your pocket</comment>
  </book>
- <book>
+  <book id="3">
  <title>Perl Cookbook</title>
  <authors>
  <author>Tom Christiansen</author>
