@@ -1,6 +1,4 @@
 <?php 
-
-
 //Element handlers
 function startElement($parser, $name, $attributes){
 	$outputAttributes = array();
@@ -11,10 +9,8 @@ function startElement($parser, $name, $attributes){
 		}
 	}
 
-
 	echo "&lt;<b>{$name}</b>" . join(' ', $outputAttributes) . '&gt;';
 }
-
 
 function endElement($parser, $name){
 	echo "&lt;<b>/{$name}</b>&gt;";
@@ -25,14 +21,12 @@ function characterData($parser, $data){
 	echo $data;
 }
 
-
 //processing instructions
 function processing_instruction($parser, $target, $code){
 	if($target === 'php'){
 		eval($code);
 	}
 }
-
 
 //external entity reference handler
 function externalEntityReference($parser, $names, $base, $systemID, $publicID){
@@ -47,6 +41,13 @@ function externalEntityReference($parser, $names, $base, $systemID, $publicID){
 
 	return false;
 }
+
+
+//default handler
+function default($parser, $data){
+	echo "<font color=\"red\">XML: Default handler called with '{$data}'</font>\n";
+}
+
 
 
  ?>

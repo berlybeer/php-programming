@@ -1,0 +1,18 @@
+<tutorial>
+	<topic>
+		<name>PHP</name>
+		<level>Intermediate</level>
+		<duration>127 hours</duration>
+	</topic>
+	<topic>
+		<name>Java</name>
+		<level>Beginner</level>
+		<duration>115 hours</duration>
+	</topic>
+
+	<topic>
+		<name>Phython</name>
+		<level>Advanced</level>
+		<duration>200 hours</duration>
+	</topic>
+</tutorial>
