@@ -8,7 +8,7 @@ $newAuthor->name = "Peter Macintyre";
 $url = "http://example.com/api/authors";
 
 $data = array(
-	'data' => jason_encode($newAuhor)
+	'data' => json_encode($newAuhor)
 );
 
 $requestData = http_build_query($data, '', '&');
